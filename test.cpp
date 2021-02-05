@@ -1,8 +1,15 @@
 #include<iostream>
 using namespace std;
 
+class Demo {
+    public:
+        int public_var;
+};
+
+
 int main()
 {
-  cout<<"Hello World"<<endl;
-  return 0;
+    Demo demo;
+    cout<<"Hello World"<<endl;
+    return 0;
 }
